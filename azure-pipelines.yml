@@ -51,13 +51,6 @@ steps:
   displayName: 'Install tools'
 
 
-
-- script: |
-    python -m pip install flake8
-    flake8 .
-  displayName: 'Run lint tests'
-
-
 - script: |
     pip install pytest pytest-azurepipelines
     pip install pytest-cov
