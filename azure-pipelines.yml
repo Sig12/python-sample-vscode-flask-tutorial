@@ -37,3 +37,11 @@ steps:
 - task: UsePythonVersion@0
   inputs:
     versionSpec: '3.6'
+
+- script: python src/example.py
+- task: PythonScript@0
+  inputs:
+    scriptSource: 'inline'
+    script: |
+      print('Hello world 1')
+      print('Hello world 2')
