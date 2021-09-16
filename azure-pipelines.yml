@@ -65,4 +65,4 @@ steps:
   inputs:
     targetPath: '$(Pipeline.Workspace)'
     artifactType: 'pipeline'
-    artifactName: 'drop'
+    artifactName: 'Testowy'
